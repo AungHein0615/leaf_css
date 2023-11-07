@@ -1,0 +1,152 @@
+.cardContainer{
+    width: 30rem;
+    height: 50rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+/* leaf_1 design comment */
+
+.leaf_1 , .leaf_2 , .leaf_3, .leaf_4 , .leaf_5 {
+    height: 15rem;
+    width: 10rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.innerleaf_01 , .innerleaf_02 , .innerleaf_03 , .innerleaf_04 , .innerleaf_05 {
+    height: 13rem;
+    width: 9rem;
+    top: 2vh;
+    left: 1vh;
+}
+
+.innerleaf_01_01 ,.innerleaf_02_02 , .innerleaf_03_03 , .innerleaf_04_04 , 
+.innerleaf_05_05 , .innerleaf_01_01_01 ,.innerleaf_02_02_02 , .innerleaf_03_03_03,
+.innerleaf_04_04_04 , .innerleaf_05_05_05{
+    height: 13rem;
+    width: 9rem;
+    top: 0vh;
+    left: 0vh;
+}
+
+/* leaf_1 design */
+
+.leaf_1 {
+    top: 8vh;
+    left: 11vh; 
+}
+.innerleaf_01 {
+    background-color: #9CAF88;
+}
+.innerleaf_01_01  {
+    background-color: #819171;
+}
+.innerleaf_01_01_01  {
+    background-color: #758467;
+}
+
+
+/* leaf_2 design */
+.leaf_2 {
+    top: 22vh;
+    right: 12.5vh;
+}
+
+.innerleaf_02 {
+    background-color: #14452F;
+}
+
+.innerleaf_02_02 {
+    background-color: #18392B;
+
+}
+
+.innerleaf_02_02_02 {
+    background-color: #0F5132;
+}
+
+/* leaf_3 design */
+
+.leaf_3 {
+    top: 37.5vh;
+    left: 11vh;
+}
+
+.innerleaf_03 {
+    background-color: #737B4C;
+}
+
+.innerleaf_03_03 {
+    background-color: #6D712E;
+}
+
+.innerleaf_03_03_03 {
+    background-color: #3D441E;
+}
+
+/* leaf_4 design */
+
+.leaf_4 {
+    top: 51.5vh;
+    right: 12.5vh;
+}
+
+.innerleaf_04 {
+    background-color: #95D5B2;
+}
+
+.innerleaf_04_04 {
+    background-color: #74C69D;
+}
+
+.innerleaf_04_04_04 {
+    background-color: #B7E4C7;
+}
+
+/* leaf_5 design */
+
+.leaf_5 {
+    top: 67vh;
+    left: 11vh;
+}
+
+.innerleaf_05 {
+    background-color: #469D89;
+}
+
+.innerleaf_05_05 {
+    background-color: #248277;
+}
+
+.innerleaf_05_05_05 {
+    background-color: #036666;
+}
+
+/* commment */
+
+#leafZip2 , #leafZip4 {
+    position: absolute;
+    border-top-left-radius: 180vh;
+    border-bottom-right-radius: 180vh;
+}
+
+#leafZip1 , #leafZip3, #leafZip5{
+    position: absolute;
+    border-top-right-radius: 180vh;
+    border-bottom-left-radius: 180vh;
+}
+
+.innerleaf_01_01:hover, .innerleaf_01_01_01:hover ,
+.innerleaf_03_03:hover, .innerleaf_03_03_03:hover, 
+.innerleaf_05_05:hover , .innerleaf_05_05_05:hover{
+    transition: ease-in;
+    top: -2vh;
+    left: 2vh;
+}
+
+.innerleaf_02_02:hover, .innerleaf_02_02_02:hover ,
+.innerleaf_04_04:hover , .innerleaf_04_04_04:hover{
+    transition: ease-in;
+    top: -2vh;
+    left: -2vh;
+}
